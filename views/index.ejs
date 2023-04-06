@@ -1,0 +1,33 @@
+<%- include('partials/header.ejs'); %>
+    <%- include('partials/navbar.ejs'); %>
+
+        <body background="" class="width" style="background-color: #78b18259;">
+            <div class="container">
+                <hr>
+                <div class="h-100 p-5 text-bg-light rounded-3">
+                    <h2>Bem vindo ao Envio de Email da Satus</h2>
+                    <br>
+                    <p>Mimimi popopo mimimi popopop midwdmiawtb uitbwuwtuitlq2wbutqw
+                        dwaiotbuq3e nui3 io 3 3etgiowsedgniotw3eio et3wioejio
+                    </p>
+                    <button class="btn btn-outline-light" type="button">Veja mais sobre!</button>
+                </div>
+                <hr>
+                <div class="card mt-5 ">
+                    <div class="card-header form-control" style="background-color: #048f22;">
+                        <h1>Enviar Email:</h1>
+                    </div>
+                    <div class="card-body">
+                        <form action="mail/send" method="POST">
+                            <label class="mb-3"><h3>Link de uma img</h3></label>
+                            <input name="url" type="text" placeholder="Envie o Link . . . " class="form-control">
+                            <br><label for="email" class="mb-3">Email:</label>
+                            <input class="form-control" type="text" name="email" placeholder="Email do cliente . . .">
+                            <br>
+                            <button class="btn btn-outline-secondary form-control">Enviar Email</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </body>
+        <%- include('partials/footer.ejs'); %>
